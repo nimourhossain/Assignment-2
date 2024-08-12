@@ -1,4 +1,190 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 *{
     font-family: "Inter", sans-serif;
+    /* background-color: black; */
+}
+
+/* Shared Style */
+.brand{
+    font-style: italic;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color:#E6533C;
+}
+.display-flex{
+    display: flex;
+}
+.bg-color{
+    background-color: rgb(41, 40, 40);
+
+}
+/* Nav-var related style */
+
+
+.nav-bar{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 190px;
+    padding-right: 190px;
+    
+}
+.nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header-container {
+    border: .5px solid #6b6767;
+    padding-right: 10px;
+    border-radius: 39px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    border-radius: 5px;
+}
+
+.nav-item {
+    padding: 0;
+}
+
+.nav-item a {
+    display: block;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.12rem;
+    font-weight: 300px;
+}
+
+.nav-item a.active {
+    background-color: #E6533C;
+    color: white;
+    border-radius: 46px; 
+    font-weight:600;
+}
+.banner-title{
+    font-size: 4.87rem;
+    font-weight:bolder;
+    color:white;
+}
+
+.miami{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.87rem;
+    font-weight: 10px;
+    color:white;
+}
+.banner-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
+.btn-1{
+    background-color: #E6533C;
+    padding:16px 46.5px;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    margin-top: 28px;
+}
+.btn-2{
+    background-color: rgb(41, 40, 40);
+    padding:16px 46.5px;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    margin-top: 28px;
+    margin-left: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.banner-content{
+    margin-left: 190px;
+    
+}
+.banner-dp{
+    margin-right: 2px;
+}
+.card-1{
+    position: absolute;
+            top: 75%;
+            left: 61%;
+            transform: translate(-50%, -20%);
+            background: rgba(59, 57, 57, 0.7);
+            padding: 0px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 206px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+           
+            backdrop-filter: blur(3px);
+}
+.part-1{
+    width: 50px; /* Adjust size as needed */
+            height: 50px; /* Adjust size as needed */
+            background-color: #E6533C;
+            border-radius: 50%;
+            display: inline-block; 
+}
+.part-2{
+  color:white;
+  text-align: center;
+  
+}
+.p-1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: -40px;
+    margin-bottom: -5px;
+}
+.p-2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.card-2{
+    position: absolute;
+    top: 25%;
+    left: 86%;
+    transform: translate(-50%, -20%);
+    background: rgba(59, 57, 57, 0.7);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 190px;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    backdrop-filter: blur(3px);
+}
+.q-1{
+font-weight: bolder;
+font-size: 2.5rem;
+margin-bottom: -10px;
+margin-top: -.2px;
+padding-top: 15px;
+padding-left: -20px;
+margin-left: -57px;
 }
