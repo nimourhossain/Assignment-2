@@ -291,7 +291,7 @@
 
 }
 .section-two .main-part-2-pic img {
-    width: 280px;
+    width: 260px;
     height: 240px;
     border-radius: 18px;
     margin-top: 40px;
@@ -312,4 +312,70 @@
     margin-left: 54px;
    
 }
+
+.fitness-section {
+    background-color: #000000;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.fitness-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fitness-section h2 {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.fitness-section p {
+    font-size: 1rem;
+    color:  rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
+
+.fitness-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fitness-item {
+    background-color: #222222;
+    padding: 20px;
+    padding-right: 180px; /* Increase padding to accommodate larger image */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.fitness-item h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.fitness-item p {
+    font-size: 1rem;
+    color:  rgba(255, 255, 255, 0.5);
+}
+
+/* Image styling */
+.fitness-item img {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 160px; /* Double the size of the image */
+    height: 160px; /* Adjust size accordingly */
+    border-radius: 5px; /* 5px radius for the image border */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+
 
