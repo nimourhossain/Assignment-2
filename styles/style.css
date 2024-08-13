@@ -363,7 +363,7 @@
 
 .fitness-item p {
     font-size: 1rem;
-    color:  rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* Image styling */
@@ -377,5 +377,185 @@
     border-radius: 5px; /* 5px radius for the image border */
     object-fit: cover; /* Ensures the image covers the space without distortion */
 }
+.bmi{
+    background-color: black;
+   
+}
+.first{
+    padding-left: 384px;
+    padding-top: 65px;
+    
+}
+.bmi-title{
+    color:white;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+.bmi-des{
+    font-size: 1rem;
+    font-weight: 400px;
+    color:rgba(255, 255, 255, 0.5);
+    padding-bottom: 88px;
+}
+/* Reset margins and paddings for seamless transition */
+.bmi-1{
+    background-color: #222222;
+    margin-top: -16px;
+}
+.bmi-title-2{
+   
+    color:white;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+table {
+    
+    border-collapse: collapse;
+    width: 350px;
+    height: 200px;
+  }
+  
+  td, th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 18px;
+    
+  }
+  th{
+   
+    height: 50px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+  }
+  td{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: .8rem;
+    font-weight: 400;
+    height: 40px;
+    
+  }
+  .second-one{
+    margin-left: 180px;
+    
+  }
 
+ .fourr{
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    margin-top: 12px;
+    margin-right: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+    height: 27px;
+ }
+ .fourrr{
+    width: 268px;
+    height: 45px;
+    
+ }
+ .fourrrr{
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 552px;
+    margin-top: 12px;
+    /* margin-right: 12px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.6);
+    font-weight: 300;
+    height: 45px;
+    margin-bottom: 40px;
+    
+ }
+ .btnn{
+    width: 224px;
+    margin-top: -10px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: -5px;
+    padding-bottom: -5px;
+    margin-bottom: 52px;
+ }
+ select option {
+    background-color: black; /* Change the background of the options */
+    color: white; /* Change text color */
+}
+.second{
+    display: flex;
+    
+}
+.second-two{
+    margin-left: 150px;
+    
+}
+.gh{
+    margin-bottom: -65px;
+}
+
+.section-3{
+    background-color: black;
+    margin-top: -40px;
+    
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 327px);
+    gap: 20px; /* Adjust gap between images if needed */
+    background-color: rgba(255, 255, 255, 0.1);;
+    width: 1040px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 58px;
+    border-radius: 10px;
+   
+   
+}
+
+.image-item {
+    position: relative;
+}
+
+.image-item img {
+    width: 100%;
+    height: 272px;
+    display: block;
+    border-radius: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hoy{
+    color:white;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 88px;
+}
+.hoy-1{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -20px;
+    
+}
+.s-3-1{
+    text-align: center;
+}
 
