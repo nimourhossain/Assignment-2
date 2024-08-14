@@ -6,7 +6,7 @@
 
 }
 
-/* Shared Style */
+
 .brand {
     font-style: italic;
     font-size: 2.2rem;
@@ -23,7 +23,7 @@
 }
 
 
-/* Nav-var related style */
+
 
 
 .nav-bar {
@@ -109,7 +109,8 @@
     border: none;
     margin-top: 28px;
 }
-.btn-1-1{
+
+.btn-1-1 {
     display: none;
 }
 
@@ -157,15 +158,16 @@
 
     backdrop-filter: blur(3px);
 }
-.play{
+
+.play {
     display: none;
 }
 
 .part-1 {
     width: 50px;
-    /* Adjust size as needed */
+
     height: 50px;
-    /* Adjust size as needed */
+    
     background-color: #E6533C;
     border-radius: 50%;
     display: inline-block;
@@ -246,7 +248,7 @@
 
 .main-part-1-imgs-des-one {
 
-    /* margin-left: 20px; */
+    
     text-align: center;
     margin-right: 30px;
 }
@@ -377,7 +379,7 @@
     background-color: #222222;
     padding: 20px;
     padding-right: 180px;
-    /* Increase padding to accommodate larger image */
+    
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: calc(50% - 20px);
@@ -397,20 +399,20 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* Image styling */
+
 .fitness-item img {
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     width: 160px;
-    /* Double the size of the image */
+    
     height: 160px;
-    /* Adjust size accordingly */
+    
     border-radius: 5px;
-    /* 5px radius for the image border */
+   
     object-fit: cover;
-    /* Ensures the image covers the space without distortion */
+    
 }
 
 .bmi {
@@ -438,7 +440,7 @@
     padding-bottom: 88px;
 }
 
-/* Reset margins and paddings for seamless transition */
+
 .bmi-1 {
     background-color: #222222;
     margin-top: -16px;
@@ -515,7 +517,7 @@ td {
     border-radius: 8px;
     width: 552px;
     margin-top: 12px;
-    /* margin-right: 12px; */
+    
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
     font-weight: 300;
@@ -544,9 +546,9 @@ td {
 
 select option {
     background-color: black;
-    /* Change the background of the options */
+
     color: white;
-    /* Change text color */
+    
 }
 
 .second {
@@ -572,12 +574,11 @@ select option {
 .image-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* Use 1fr to make it responsive */
-    /* 20px gap between the grid items */
+    
     background-color: rgba(255, 255, 255, 0.1);
     width: 1040px;
     padding: 10px;
-    /* 20px padding around the grid */
+  
     margin: 0 auto;
     margin-top: 58px;
     border-radius: 10px;
@@ -585,11 +586,11 @@ select option {
 
 .image-item {
     position: relative;
-    /* background-color: rgba(255, 255, 255, 0.1); Apply the background color here */
+    
     padding: 10px;
-    /* Ensure there's 20px space on all sides of the image */
+    
     border-radius: 10px;
-    /* Match the border radius if needed */
+    
 }
 
 .image-item img {
@@ -597,9 +598,9 @@ select option {
     height: 272px;
     display: block;
     border-radius: 8px;
-    /* Reduce the radius slightly to keep the gap consistent */
+    
     margin: 0;
-    /* Remove the margin so padding works correctly */
+   
 }
 
 
@@ -710,7 +711,7 @@ select option {
     padding-bottom: 15px;
 }
 
-/* Responsive */
+
 .hide {
     display: none;
 }
@@ -765,7 +766,7 @@ span.icon {
         margin-top: -20px;
     }
 
-    
+
     .btn-2 {
         padding: 12px 30px;
         font-size: 1rem;
@@ -814,339 +815,395 @@ span.icon {
         display: flex;
         align-items: center;
         justify-content: space-around;
-          
+
         backdrop-filter: blur(3px);
     }
 
-    .q-1{
+    .q-1 {
         margin-top: -15px;
         margin-bottom: -20px;
         padding-left: 10px;
     }
-    .p-2{
-        
-       
+
+    .p-2 {
+
+
         padding-left: 7px;
     }
-  .part-1{
-    display: none;
-  }
-.play{
-    display: block;
-}
-.btn-1{
-    display: none;
-}
-.btn-1-1{
-    background-color: #E6533C;
-    padding: 16px 46.5px;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 42px;
-    border: none;
-    margin-top: 28px;
-    display: block;
-}
-.nm{
-    display: flex;
-}
 
-.btn-2 {
-    background-color:rgba(22, 22, 22, 0.7) ;
-    
-}
+    .part-1 {
+        display: none;
+    }
 
-.section-one {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-}
+    .play {
+        display: block;
+    }
 
-.main-part-1-title,
-.main-part-1-description,
-.main-part-one-title,
-.main-part-one-des {
-    margin: 0 auto;
-    text-align: inherit; /* Keeps the original text alignment */
-    gap:20px;
-}
+    .btn-1 {
+        display: none;
+    }
 
-.main-part-1-imgs {
-    margin-top: 30px;
-    margin-left: 0;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-.main-part-1-title{
-    white-space: nowrap;
-    font-size: 2.4rem;
-    margin-top: -90px;
-    margin-bottom: 15px;
-}
-.main-part-one-title{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-.main-part-one-des{
-    padding-bottom: 20px;
-    padding-left: 30px;
-}
-.main-part-2-2 {
-    flex-direction: column;
-    align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: -.5px;
-}
+    .btn-1-1 {
+        background-color: #E6533C;
+        padding: 16px 46.5px;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        border-radius: 42px;
+        border: none;
+        margin-top: 28px;
+        display: block;
+    }
 
-.main-part-2-pic {
-    margin-top: 5px;
-    margin-right: 0;
-    margin-bottom: 30px;
-    margin-left: 40px;
-}
+    .nm {
+        display: flex;
+    }
 
-.main-part-2-des {
-    margin-left: 0;
-    text-align: left;
-    width: 100%;
-}
+    .btn-2 {
+        background-color: rgba(22, 22, 22, 0.7);
 
-.btn-3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.main-part-2-title{
-    margin-left: 50px;
-}
-.main-part-2-para{
-    margin-left: 50px;
-}
-.btn-3{
-    margin-left: 70px;
-    
-}
-.fitness-items {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
+    }
 
-.fitness-item {
-    width: 100%;
-    padding-right: 0;
-    position: relative;
-    overflow: visible;
-}
+    .section-one {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
 
-.fitness-item img {
-    position: static;
-    width: 80%;
-    height: auto;
-    margin-top: 20px;
-    transform: none;
-    margin-left: -20px;
-    
-}
+    .main-part-1-title,
+    .main-part-1-description,
+    .main-part-one-title,
+    .main-part-one-des {
+        margin: 0 auto;
+        text-align: inherit;
+        
+        gap: 20px;
+    }
 
-.fitness-item h3, .fitness-item p {
-    text-align: center;
-}
-.wq{
-    text-align: left;
-    padding-left: 20px;
-}
-.first {
-    padding-left: 20px; /* Adjust padding for smaller screens */
-    padding-top: 30px;  /* Adjust padding for smaller screens */
-    text-align: center; /* Center-align text on smaller screens */
-}
+    .main-part-1-imgs {
+        margin-top: 30px;
+        margin-left: 0;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
 
-.bmi-title {
-    font-size: 2rem; /* Adjust font size for smaller screens */
-    margin: 0;       /* Remove margin to center text properly */
-}
+    .main-part-1-title {
+        white-space: nowrap;
+        font-size: 2.4rem;
+        margin-top: -90px;
+        margin-bottom: 15px;
+    }
 
-.bmi-des {
-    font-size: 0.9rem; /* Adjust font size for smaller screens */
-    padding-bottom: 40px; /* Adjust padding for smaller screens */
-    text-align: left;
-    margin-left: 20px;
-}
+    .main-part-one-title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
 
- /* .bmi-1 adjustments */
- .bmi-1 {
-    background-color: #222222;
-    margin-top: -15px; /* Reset margin-top for better spacing on smaller screens */
-}
+    .main-part-one-des {
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
 
-/* .bmi-title-2 adjustments */
-.bmi-title-2 {
-    color: white;
-    font-size: 1.4rem; /* Reduce font size for smaller screens */
-    padding-top: 30px; /* Adjust padding for better spacing */
-    margin-left: 20px;
-}
+    .main-part-2-2 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -.5px;
+    }
 
-/* Table adjustments */
-table {
-    width: 80%; /* Make table width responsive */
-    height: auto; /* Adjust height based on content */
-    margin-left: 20px;
-}
+    .main-part-2-pic {
+        margin-top: 5px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    }
 
-td,
-th {
-    padding: 10px; /* Adjust padding for better readability */
-}
+    .main-part-2-des {
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+    }
 
-th {
-    height: auto; /* Adjust height to fit content */
-    font-size: 0.9rem; /* Reduce font size for smaller screens */
-}
+    .btn-3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
 
-td {
-    font-size: 0.8rem; /* Adjust font size for better fit */
-}
+    .main-part-2-title {
+        margin-left: 50px;
+    }
 
-/* .second-one and .second-two adjustments */
-.second-one {
-    margin-left: 20px; /* Reduce margin for smaller screens */
-}
+    .main-part-2-para {
+        margin-left: 50px;
+    }
 
-.second-two {
-    margin-left: 20px; /* Reduce margin for smaller screens */
-}
+    .btn-3 {
+        margin-left: 70px;
+      width: 65%;
+    }
 
-/* Form and input adjustments */
-.fourr {
-    width: 80%; /* Make input width responsive */
-    margin-top: 10px; /* Adjust margin for better spacing */
-}
+    .fitness-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
-.fourrr {
-    width: 80%; /* Make input width responsive */
-    height: auto; /* Adjust height to fit content */
-}
+    .fitness-item {
+        width: 100%;
+        padding-right: 0;
+        position: relative;
+        overflow: visible;
+    }
 
-.fourrrr {
-    width: 97%; /* Make input width responsive */
-    margin-top: 10px; /* Adjust margin for better spacing */
-}
+    .fitness-item img {
+        position: static;
+        width: 80%;
+        height: auto;
+        margin-top: 20px;
+        transform: none;
+        margin-left: -20px;
 
-/* Button adjustments */
-.btnn {
-    width: 50%; /* Make button width responsive */
-    padding: 10px 10px; /* Adjust padding for better spacing */
-    font-size: 1rem; /* Adjust font size */
-    margin-top: -10px; /* Adjust margin for better spacing */
-    
-}
+    }
 
-/* Select option adjustments */
-select option {
-    background-color: black; /* Keep the background color */
-    color: white; /* Keep the text color */
-}
+    .fitness-item h3,
+    .fitness-item p {
+        text-align: center;
+    }
 
-/* Flex container adjustments */
-.second {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-}
+    .wq {
+        text-align: left;
+        padding-left: 20px;
+    }
 
-.gh {
-    margin-bottom: 0; /* Reset margin for better spacing */
-}
-.column-1{
-    display: flex;
-}
-.column-2{
-    display: flex;
-}
-/* Change grid layout to a single column */
-.image-grid {
-    grid-template-columns: 1fr; /* Stack images in a single column */
-    width: 100%; /* Full width of the container */
-    margin: 0; /* Remove margin to fit screen width */
-    padding: 0; /* Remove padding to fit screen width */
-}
+    .first {
+        padding-left: 20px;
+        
+        padding-top: 30px;
+        
+        text-align: center;
+     
+    }
 
-/* Ensure images take full width of the container */
-.image-item img {
-    height: auto;
-  /* Maintain aspect ratio */
+    .bmi-title {
+        font-size: 2rem;
+        
+        margin: 0;
+        
+    }
+
+    .bmi-des {
+        font-size: 0.9rem;
+        
+        padding-bottom: 40px;
+        
+        text-align: left;
+        margin-left: 20px;
+    }
+
    
-}
+    .bmi-1 {
+        background-color: #222222;
+        margin-top: -15px;
+       
+    }
 
-/* Adjust text position if needed */
-.image-text {
-    bottom: 10px; /* Adjust bottom position if needed */
-}
-.image-item{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
-}
-.hoy-1{
-    margin-bottom: 40px;
-}
-.b-name {
-    font-size: 3rem; /* Adjust font size for smaller screens */
-}
+    
+    .bmi-title-2 {
+        color: white;
+        font-size: 1.4rem;
+       
+        padding-top: 30px;
+        
+        margin-left: 20px;
+    }
 
-.foot-1-des {
-    font-size: 0.9rem; /* Adjust font size for readability */
-    margin-top: -10px; /* Reduce margin to fit smaller screen */
-}
+    
+    table {
+        width: 80%;
+        
+        height: auto;
+        
+        margin-left: 20px;
+    }
 
-.foott {
-    flex-direction: column; /* Stack items vertically for smaller screens */
-    align-items: flex-start; /* Align items to the start */
-}
+    td,
+    th {
+        padding: 10px;
+        
+    }
 
-.foot-one {
-    margin-left: 20px; /* Reduce margin for smaller screens */
-    margin-top: -20px; /* Adjust top margin to fit content */
-}
+    th {
+        height: auto;
+        
+        font-size: 0.9rem;
+        
+    }
 
-.foot-h {
-    font-size: 1.5rem; /* Adjust font size for readability */
-}
+    td {
+        font-size: 0.8rem;
+        
+    }
 
-.foot-des {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-    margin-top: 5px; /* Reduce margin to fit smaller screen */
-}
+    
+    .second-one {
+        margin-left: 20px;
+        
+    }
 
-.foot-two,
-.foot-three {
-    margin-left: 20px; /* Reduce margin for smaller screens */
-}
+    .second-two {
+        margin-left: 20px;
+        
+    }
 
-.line {
-    width: 80%; /* Make the line full width of the container */
-    margin-top: 40px; /* Adjust top margin for smaller screens */
-}
+   
+    .fourr {
+        width: 80%;
+        
+        margin-top: 10px;
+        
+    }
 
-.f-t {
-    font-size: 1rem; /* Adjust font size for smaller screens */
-    margin-top: 20px; /* Adjust margin for readability */
-}
+    .fourrr {
+        width: 80%;
+        
+        height: auto;
+        
+    }
 
-.hr-line {
-    text-align: center; /* Keep text centered */
-}
+    .fourrrr {
+        width: 97%;
+        
+        margin-top: 10px;
+        
+    }
 
-.yyr {
-    padding-bottom: 10px; /* Adjust padding for smaller screens */
-}
+    
+    .btnn {
+        width: 50%;
+        
+        padding: 10px 10px;
+        
+        font-size: 1rem;
+        
+        margin-top: -10px;
+        
+
+    }
+
+    
+    select option {
+        background-color: black;
+        color: white;
+    }
+
+    
+    .second {
+        flex-direction: column;
+        
+    }
+
+    .gh {
+        margin-bottom: 0;
+        
+    }
+
+    .column-1 {
+        display: flex;
+    }
+
+    .column-2 {
+        display: flex;
+    }
+
+    
+    .image-grid {
+        grid-template-columns: 1fr;
+        
+        width: 100%;
+        
+        margin: 0;
+        
+        padding: 0;
+    }
+
+
+    .image-item img {
+        height: auto;
+
+
+    }
+
+
+    .image-text {
+        bottom: 10px;
+    }
+
+    .image-item {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .hoy-1 {
+        margin-bottom: 40px;
+    }
+
+    .b-name {
+        font-size: 3rem;
+    }
+
+    .foot-1-des {
+        font-size: 0.9rem;
+        margin-top: -10px;
+    }
+
+    .foott {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+        .foot-one {
+            margin-left: 20px;
+            margin-top: -20px;
+        }
+
+        .foot-h {
+            font-size: 1.5rem;
+        }
+
+        .foot-des {
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        .foot-two,
+        .foot-three {
+            margin-left: 20px;
+        }
+
+        .line {
+            width: 80%;
+            margin-top: 40px;
+        }
+
+        .f-t {
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+
+        .hr-line {
+            text-align: center;
+        }
+
+        .yyr {
+            padding-bottom: 10px;
+        }
 
 
 
 
 
-}
+    }
