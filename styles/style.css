@@ -3,7 +3,7 @@
 
 * {
     font-family: "Inter", sans-serif;
-    
+
 }
 
 /* Shared Style */
@@ -109,6 +109,9 @@
     border: none;
     margin-top: 28px;
 }
+.btn-1-1{
+    display: none;
+}
 
 .btn-2 {
     background-color: rgb(8, 8, 8);
@@ -153,6 +156,9 @@
     justify-content: space-around;
 
     backdrop-filter: blur(3px);
+}
+.play{
+    display: none;
 }
 
 .part-1 {
@@ -212,57 +218,67 @@
     padding-left: -20px;
     margin-left: -57px;
 }
-.main-part-1{
+
+.main-part-1 {
     text-align: center;
     background-color: black;
 }
-.main-part-1-title{
+
+.main-part-1-title {
     font-size: 3rem;
     font-weight: bolder;
-    color:white;
+    color: white;
     padding-top: 100px;
     margin: 0 auto;
 }
-.main-part-1-description{
+
+.main-part-1-description {
     font-size: 1rem;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
 }
-.section-one{
+
+.section-one {
     background-color: black;
     padding-left: 198px;
     padding-right: 198px;
 }
-.main-part-1-imgs-des-one{
-    
+
+.main-part-1-imgs-des-one {
+
     /* margin-left: 20px; */
     text-align: center;
     margin-right: 30px;
 }
-.main-part-1-imgs{
+
+.main-part-1-imgs {
     display: flex;
     margin-top: 58px;
     margin-left: 35px;
 }
+
 .circular-image {
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    object-fit: cover; 
-    overflow: hidden; 
+    object-fit: cover;
+    overflow: hidden;
     border: 2px solid rgb(53, 51, 51);
 }
-.main-part-one-title{
+
+.main-part-one-title {
     font-size: 1rem;
     font-weight: 600;
     color: white;
 }
-.main-part-one-des{
+
+.main-part-one-des {
     font-size: 1rem;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-top: -10px;
 }
+
 .section-two {
     margin: 0;
     padding: 0;
@@ -270,12 +286,13 @@
 }
 
 .main-part-2 {
-    
+
     margin: 0 auto;
-    
+
     padding: 20px;
 }
-.main-part-2-2{
+
+.main-part-2-2 {
     background-color: #222222;
     margin-left: 190px;
     margin-right: 190px;
@@ -284,12 +301,14 @@
     margin-top: 80px;
     justify-content: space-between;
 }
-.main-part-2-title{
+
+.main-part-2-title {
     font-size: 2.5rem;
     font-weight: bolder;
     color: white;
 
 }
+
 .section-two .main-part-2-pic img {
     width: 260px;
     height: 240px;
@@ -297,20 +316,31 @@
     margin-top: 40px;
     margin-right: 50px;
 }
-.main-part-2-para{
+
+.main-part-2-para {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: -15px;
 }
-.btn-3{
+
+.btn-3 {
     width: 224px;
-   margin-top: 7px;
+    margin-top: 7px;
     margin-bottom: 30px;
+    background-color: #E6533C;
+    padding: 16px 46.5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    margin-top: 28px;
 }
-.main-part-2-des{
+
+.main-part-2-des {
     margin-left: 54px;
-   
+
 }
 
 .fitness-section {
@@ -332,7 +362,7 @@
 
 .fitness-section p {
     font-size: 1rem;
-    color:  rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-bottom: 40px;
 }
 
@@ -346,7 +376,8 @@
 .fitness-item {
     background-color: #222222;
     padding: 20px;
-    padding-right: 180px; /* Increase padding to accommodate larger image */
+    padding-right: 180px;
+    /* Increase padding to accommodate larger image */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: calc(50% - 20px);
@@ -372,77 +403,92 @@
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 160px; /* Double the size of the image */
-    height: 160px; /* Adjust size accordingly */
-    border-radius: 5px; /* 5px radius for the image border */
-    object-fit: cover; /* Ensures the image covers the space without distortion */
+    width: 160px;
+    /* Double the size of the image */
+    height: 160px;
+    /* Adjust size accordingly */
+    border-radius: 5px;
+    /* 5px radius for the image border */
+    object-fit: cover;
+    /* Ensures the image covers the space without distortion */
 }
-.bmi{
+
+.bmi {
     background-color: black;
-   
+
 }
-.first{
+
+.first {
     padding-left: 384px;
     padding-top: 65px;
-    
+
 }
-.bmi-title{
-    color:white;
+
+.bmi-title {
+    color: white;
     font-size: 3rem;
     font-weight: bolder;
     margin: 0 auto;
 }
-.bmi-des{
+
+.bmi-des {
     font-size: 1rem;
     font-weight: 400px;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     padding-bottom: 88px;
 }
+
 /* Reset margins and paddings for seamless transition */
-.bmi-1{
+.bmi-1 {
     background-color: #222222;
     margin-top: -16px;
 }
-.bmi-title-2{
-   
-    color:white;
+
+.bmi-title-2 {
+
+    color: white;
     font-size: 1.8rem;
     font-weight: bolder;
     padding-top: 50px;
 }
+
 table {
-    
+
     border-collapse: collapse;
     width: 350px;
     height: 200px;
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding-left: 18px;
-    
-  }
-  th{
-   
+
+}
+
+th {
+
     height: 50px;
-    color:white;
+    color: white;
     font-size: 1rem;
     font-weight: 300;
     text-align: left;
-  }
-  td{
-    color:rgba(255, 255, 255, 0.5);
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
     font-size: .8rem;
     font-weight: 400;
     height: 40px;
-    
-  }
-  .second-one{
-    margin-left: 180px;
-    
-  }
 
- .fourr{
+}
+
+.second-one {
+    margin-left: 180px;
+
+}
+
+.fourr {
     padding: 8px;
     font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -451,16 +497,18 @@ table {
     margin-top: 12px;
     margin-right: 12px;
     background-color: rgba(255, 255, 255, 0.1);
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 300;
     height: 27px;
- }
- .fourrr{
+}
+
+.fourrr {
     width: 268px;
     height: 45px;
-    
- }
- .fourrrr{
+
+}
+
+.fourrrr {
     padding: 8px;
     font-size: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -469,13 +517,14 @@ table {
     margin-top: 12px;
     /* margin-right: 12px; */
     background-color: rgba(255, 255, 255, 0.1);
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     font-weight: 300;
     height: 45px;
     margin-bottom: 40px;
-    
- }
- .btnn{
+
+}
+
+.btnn {
     width: 224px;
     margin-top: -10px;
     font-size: 1rem;
@@ -483,24 +532,38 @@ table {
     padding-top: -5px;
     padding-bottom: -5px;
     margin-bottom: 52px;
- }
- select option {
-    background-color: black; /* Change the background of the options */
-    color: white; /* Change text color */
+    background-color: #E6533C;
+    padding: 16px 46.5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    margin-top: 28px;
 }
-.second{
+
+select option {
+    background-color: black;
+    /* Change the background of the options */
+    color: white;
+    /* Change text color */
+}
+
+.second {
     display: flex;
-    
+
 }
-.second-two{
+
+.second-two {
     margin-left: 150px;
-    
+
 }
-.gh{
+
+.gh {
     margin-bottom: -65px;
 }
 
-.section-3{
+.section-3 {
     background-color: black;
     margin-top: -40px;
     padding-bottom: 88px;
@@ -508,11 +571,13 @@ table {
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Use 1fr to make it responsive */
-     /* 20px gap between the grid items */
+    grid-template-columns: repeat(3, 1fr);
+    /* Use 1fr to make it responsive */
+    /* 20px gap between the grid items */
     background-color: rgba(255, 255, 255, 0.1);
     width: 1040px;
-    padding: 10px; /* 20px padding around the grid */
+    padding: 10px;
+    /* 20px padding around the grid */
     margin: 0 auto;
     margin-top: 58px;
     border-radius: 10px;
@@ -521,16 +586,20 @@ table {
 .image-item {
     position: relative;
     /* background-color: rgba(255, 255, 255, 0.1); Apply the background color here */
-    padding: 10px; /* Ensure there's 20px space on all sides of the image */
-    border-radius: 10px; /* Match the border radius if needed */
+    padding: 10px;
+    /* Ensure there's 20px space on all sides of the image */
+    border-radius: 10px;
+    /* Match the border radius if needed */
 }
 
 .image-item img {
     width: 100%;
     height: 272px;
     display: block;
-    border-radius: 8px; /* Reduce the radius slightly to keep the gap consistent */
-    margin: 0; /* Remove the margin so padding works correctly */
+    border-radius: 8px;
+    /* Reduce the radius slightly to keep the gap consistent */
+    margin: 0;
+    /* Remove the margin so padding works correctly */
 }
 
 
@@ -542,28 +611,32 @@ table {
     font-size: 1.1rem;
     font-weight: bold;
 }
-.hoy{
-    color:white;
+
+.hoy {
+    color: white;
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 88px;
 }
-.hoy-1{
-    color:rgba(255, 255, 255, 0.5);
+
+.hoy-1 {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     margin-top: -20px;
-    
+
 }
-.s-3-1{
+
+.s-3-1 {
     text-align: center;
 }
-.image-text{
-    color:rgba(255, 255, 255, 0.5);
+
+.image-text {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1 rem;
     font-weight: 300;
-    bottom:5px;
-    left:20px;
+    bottom: 5px;
+    left: 20px;
     position: absolute;
 }
 
@@ -573,79 +646,105 @@ table {
     font-weight: bolder;
     color: #E6533C;
 }
-.foot-1-des{
+
+.foot-1-des {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: -20px;
 
 }
-.foott{
+
+.foott {
     display: flex;
     align-items: center;
 }
-.foot-one{
-    margin-left:100px;
+
+.foot-one {
+    margin-left: 100px;
     margin-top: -80px;
 }
-.foot-h{
+
+.foot-h {
     font-size: 2rem;
     font-weight: bold;
-    color:white;
-    
+    color: white;
+
 }
-.foot-des{
+
+.foot-des {
     font-size: 1.3rem;
     font-weight: 300;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 10px;
-    
+
 }
-.foot-two,.foot-three{
+
+.foot-two,
+.foot-three {
     padding-top: 40px;
     margin-left: 130px;
 }
-.line{
+
+.line {
     width: 1000px;
     border: 1px solid rgba(83, 81, 81, 0.5);
     margin-top: 79px;
 }
-.f-t{
-    color:rgba(255, 255, 255, 0.5);
+
+.f-t {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem;
     font-weight: 400;
     margin-top: 36px;
-   
-   
+
+
 
 }
-.hr-line{
+
+.hr-line {
     text-align: center;
 }
-.yyr{
+
+.yyr {
     padding-bottom: 15px;
 }
 
 /* Responsive */
-.hide{
+.hide {
+    display: none;
+}
+
+span.icon {
     display: none;
 }
 
 
 @media screen and (max-width: 576px) {
-    
+
 
     .nav-bar {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .nav-list{
+
+    .nav-list {
         display: none;
+    }
+
+    span.icon {
+        display: block;
+
+    }
+
+    .header-container {
+        border: none;
+        border-radius: 0px;
     }
 
     .header-container {
         padding-right: 5px;
-        border-radius: 20px;
+
     }
 
     .nav-item a {
@@ -666,25 +765,388 @@ table {
         margin-top: -20px;
     }
 
-    .btn-1, .btn-2 {
+    
+    .btn-2 {
         padding: 12px 30px;
         font-size: 1rem;
-        margin-top: 20px;
+        margin-top: 28px;
     }
 
     .banner {
         flex-direction: column;
         align-items: center;
+        position: relative;
     }
 
     .banner-content {
         margin-left: 0;
     }
 
-    .card-1, .card-2 {
-        width: 100%;
-        top: auto;
-        left: auto;
-        transform: none;
+    .card-1 {
+        position: absolute;
+        top: 67%;
+        left: 29%;
+        transform: translate(-50%, -20%);
+        background: rgba(59, 57, 57, 0.7);
+        padding: 0px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        width: 165px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        backdrop-filter: blur(3px);
     }
+
+    .card-2 {
+        position: absolute;
+        top: 43%;
+        left: 73%;
+        transform: translate(-50%, -20%);
+        background: rgba(59, 57, 57, 0.7);
+        padding: 0px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        width: 165px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+          
+        backdrop-filter: blur(3px);
+    }
+
+    .q-1{
+        margin-top: -15px;
+        margin-bottom: -20px;
+        padding-left: 10px;
+    }
+    .p-2{
+        
+       
+        padding-left: 7px;
+    }
+  .part-1{
+    display: none;
+  }
+.play{
+    display: block;
+}
+.btn-1{
+    display: none;
+}
+.btn-1-1{
+    background-color: #E6533C;
+    padding: 16px 46.5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    margin-top: 28px;
+    display: block;
+}
+.nm{
+    display: flex;
+}
+
+.btn-2 {
+    background-color:rgba(22, 22, 22, 0.7) ;
+    
+}
+
+.section-one {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.main-part-1-title,
+.main-part-1-description,
+.main-part-one-title,
+.main-part-one-des {
+    margin: 0 auto;
+    text-align: inherit; /* Keeps the original text alignment */
+    gap:20px;
+}
+
+.main-part-1-imgs {
+    margin-top: 30px;
+    margin-left: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.main-part-1-title{
+    white-space: nowrap;
+    font-size: 2.4rem;
+    margin-top: -90px;
+    margin-bottom: 15px;
+}
+.main-part-one-title{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.main-part-one-des{
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+.main-part-2-2 {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -.5px;
+}
+
+.main-part-2-pic {
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.main-part-2-des {
+    margin-left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.btn-3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.main-part-2-title{
+    margin-left: 50px;
+}
+.main-part-2-para{
+    margin-left: 50px;
+}
+.btn-3{
+    margin-left: 70px;
+    
+}
+.fitness-items {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fitness-item {
+    width: 100%;
+    padding-right: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.fitness-item img {
+    position: static;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    transform: none;
+    margin-left: -20px;
+    
+}
+
+.fitness-item h3, .fitness-item p {
+    text-align: center;
+}
+.wq{
+    text-align: left;
+    padding-left: 20px;
+}
+.first {
+    padding-left: 20px; /* Adjust padding for smaller screens */
+    padding-top: 30px;  /* Adjust padding for smaller screens */
+    text-align: center; /* Center-align text on smaller screens */
+}
+
+.bmi-title {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin: 0;       /* Remove margin to center text properly */
+}
+
+.bmi-des {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+    padding-bottom: 40px; /* Adjust padding for smaller screens */
+    text-align: left;
+    margin-left: 20px;
+}
+
+ /* .bmi-1 adjustments */
+ .bmi-1 {
+    background-color: #222222;
+    margin-top: -15px; /* Reset margin-top for better spacing on smaller screens */
+}
+
+/* .bmi-title-2 adjustments */
+.bmi-title-2 {
+    color: white;
+    font-size: 1.4rem; /* Reduce font size for smaller screens */
+    padding-top: 30px; /* Adjust padding for better spacing */
+    margin-left: 20px;
+}
+
+/* Table adjustments */
+table {
+    width: 80%; /* Make table width responsive */
+    height: auto; /* Adjust height based on content */
+    margin-left: 20px;
+}
+
+td,
+th {
+    padding: 10px; /* Adjust padding for better readability */
+}
+
+th {
+    height: auto; /* Adjust height to fit content */
+    font-size: 0.9rem; /* Reduce font size for smaller screens */
+}
+
+td {
+    font-size: 0.8rem; /* Adjust font size for better fit */
+}
+
+/* .second-one and .second-two adjustments */
+.second-one {
+    margin-left: 20px; /* Reduce margin for smaller screens */
+}
+
+.second-two {
+    margin-left: 20px; /* Reduce margin for smaller screens */
+}
+
+/* Form and input adjustments */
+.fourr {
+    width: 80%; /* Make input width responsive */
+    margin-top: 10px; /* Adjust margin for better spacing */
+}
+
+.fourrr {
+    width: 80%; /* Make input width responsive */
+    height: auto; /* Adjust height to fit content */
+}
+
+.fourrrr {
+    width: 97%; /* Make input width responsive */
+    margin-top: 10px; /* Adjust margin for better spacing */
+}
+
+/* Button adjustments */
+.btnn {
+    width: 50%; /* Make button width responsive */
+    padding: 10px 10px; /* Adjust padding for better spacing */
+    font-size: 1rem; /* Adjust font size */
+    margin-top: -10px; /* Adjust margin for better spacing */
+    
+}
+
+/* Select option adjustments */
+select option {
+    background-color: black; /* Keep the background color */
+    color: white; /* Keep the text color */
+}
+
+/* Flex container adjustments */
+.second {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+}
+
+.gh {
+    margin-bottom: 0; /* Reset margin for better spacing */
+}
+.column-1{
+    display: flex;
+}
+.column-2{
+    display: flex;
+}
+/* Change grid layout to a single column */
+.image-grid {
+    grid-template-columns: 1fr; /* Stack images in a single column */
+    width: 100%; /* Full width of the container */
+    margin: 0; /* Remove margin to fit screen width */
+    padding: 0; /* Remove padding to fit screen width */
+}
+
+/* Ensure images take full width of the container */
+.image-item img {
+    height: auto;
+  /* Maintain aspect ratio */
+   
+}
+
+/* Adjust text position if needed */
+.image-text {
+    bottom: 10px; /* Adjust bottom position if needed */
+}
+.image-item{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.hoy-1{
+    margin-bottom: 40px;
+}
+.b-name {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+}
+
+.foot-1-des {
+    font-size: 0.9rem; /* Adjust font size for readability */
+    margin-top: -10px; /* Reduce margin to fit smaller screen */
+}
+
+.foott {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.foot-one {
+    margin-left: 20px; /* Reduce margin for smaller screens */
+    margin-top: -20px; /* Adjust top margin to fit content */
+}
+
+.foot-h {
+    font-size: 1.5rem; /* Adjust font size for readability */
+}
+
+.foot-des {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-top: 5px; /* Reduce margin to fit smaller screen */
+}
+
+.foot-two,
+.foot-three {
+    margin-left: 20px; /* Reduce margin for smaller screens */
+}
+
+.line {
+    width: 80%; /* Make the line full width of the container */
+    margin-top: 40px; /* Adjust top margin for smaller screens */
+}
+
+.f-t {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-top: 20px; /* Adjust margin for readability */
+}
+
+.hr-line {
+    text-align: center; /* Keep text centered */
+}
+
+.yyr {
+    padding-bottom: 10px; /* Adjust padding for smaller screens */
+}
+
+
+
+
+
 }
