@@ -12,6 +12,7 @@
     font-size: 2.2rem;
     font-weight: bolder;
     color: #E6533C;
+
 }
 
 .display-flex {
@@ -155,7 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+     
     backdrop-filter: blur(3px);
 }
 
@@ -431,6 +432,7 @@
     font-size: 3rem;
     font-weight: bolder;
     margin: 0 auto;
+    
 }
 
 .bmi-des {
@@ -719,6 +721,7 @@ select option {
 span.icon {
     display: none;
 }
+
 
 
 @media screen and (max-width: 576px) {
@@ -1122,9 +1125,10 @@ span.icon {
     .image-grid {
         grid-template-columns: 1fr;
         
-        width: 100%;
+        width: 80%;
         
-        margin: 0;
+        margin-left: 48px;
+        
         
         padding: 0;
     }
@@ -1201,9 +1205,20 @@ span.icon {
         .yyr {
             padding-bottom: 10px;
         }
+        .brand{
+            margin-left: 25px;
+        }
 
-
-
+        .bmi-title{
+            margin-left: -220px;
+        }
+        .bad{
+            display: none;
+        }
+        .hoy-1{
+            text-align: left;
+            margin-left: 50px;
+        }
 
 
     }
