@@ -503,43 +503,43 @@ table {
 .section-3{
     background-color: black;
     margin-top: -40px;
-    
+    padding-bottom: 88px;
 }
 
 .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 327px);
-    gap: 20px; /* Adjust gap between images if needed */
-    background-color: rgba(255, 255, 255, 0.1);;
+    grid-template-columns: repeat(3, 1fr); /* Use 1fr to make it responsive */
+     /* 20px gap between the grid items */
+    background-color: rgba(255, 255, 255, 0.1);
     width: 1040px;
-    padding: 10px;
+    padding: 10px; /* 20px padding around the grid */
     margin: 0 auto;
     margin-top: 58px;
     border-radius: 10px;
-   
-   
 }
 
 .image-item {
     position: relative;
+    /* background-color: rgba(255, 255, 255, 0.1); Apply the background color here */
+    padding: 10px; /* Ensure there's 20px space on all sides of the image */
+    border-radius: 10px; /* Match the border radius if needed */
 }
 
 .image-item img {
     width: 100%;
     height: 272px;
     display: block;
-    border-radius: 18px;
-    margin-left: 10px;
-    margin-top: 10px;
-    
+    border-radius: 8px; /* Reduce the radius slightly to keep the gap consistent */
+    margin: 0; /* Remove the margin so padding works correctly */
 }
 
-.image-text {
+
+.img-text {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 .hoy{
@@ -558,4 +558,133 @@ table {
 .s-3-1{
     text-align: center;
 }
+.image-text{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1 rem;
+    font-weight: 300;
+    bottom:5px;
+    left:20px;
+    position: absolute;
+}
 
+.b-name {
+    font-style: italic;
+    font-size: 4.37rem;
+    font-weight: bolder;
+    color: #E6533C;
+}
+.foot-1-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -20px;
+
+}
+.foott{
+    display: flex;
+    align-items: center;
+}
+.foot-one{
+    margin-left:100px;
+    margin-top: -80px;
+}
+.foot-h{
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    
+}
+.foot-des{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    
+}
+.foot-two,.foot-three{
+    padding-top: 40px;
+    margin-left: 130px;
+}
+.line{
+    width: 1000px;
+    border: 1px solid rgba(83, 81, 81, 0.5);
+    margin-top: 79px;
+}
+.f-t{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 36px;
+   
+   
+
+}
+.hr-line{
+    text-align: center;
+}
+.yyr{
+    padding-bottom: 15px;
+}
+
+/* Responsive */
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+
+    .nav-bar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-list{
+        display: none;
+    }
+
+    .header-container {
+        padding-right: 5px;
+        border-radius: 20px;
+    }
+
+    .nav-item a {
+        padding: 6px 10px;
+        font-size: 1rem;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .miami {
+        font-size: 2.5rem;
+    }
+
+    .banner-discription {
+        font-size: 0.8rem;
+        margin-top: -20px;
+    }
+
+    .btn-1, .btn-2 {
+        padding: 12px 30px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-content {
+        margin-left: 0;
+    }
+
+    .card-1, .card-2 {
+        width: 100%;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+}
